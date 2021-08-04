@@ -88,19 +88,19 @@ nav a {
 .orange {
     background-color: #FF764E;
     margin-left: 10%;
-    width: 25%;
+    
 }
 
 .blue {
     background-color: #5ED3EB;
     margin: 0 24%;
-    width: 25%;
+    
 }
 
 .yellow {
     background-color: #FFCD69;
     margin-right: 10%;
-    width: 25%;
+    
 }
 
 
@@ -166,9 +166,11 @@ nav a {
 /*Yosemite Landscape Full Width Section*/
 
 .footer-image {
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    background-image: url("assets/footer_img.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 
@@ -177,6 +179,7 @@ nav a {
 footer {
     background-color: #F9E7DC;
     margin-top: 0;
+    padding: 2% 0;
 }
 
 footer a {
