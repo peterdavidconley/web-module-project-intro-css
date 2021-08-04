@@ -37,7 +37,6 @@ blockquote, q {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
     padding: 0;
     margin: 0;
     max-width: 100%;
@@ -86,19 +85,19 @@ nav a {
      color: white;
  }
 
-.plan {
+.orange {
     background-color: #FF764E;
     margin-left: 10%;
     width: 25%;
 }
 
-.learn {
+.blue {
     background-color: #5ED3EB;
     margin: 0 24%;
     width: 25%;
 }
 
-.get-involved {
+.yellow {
     background-color: #FFCD69;
     margin-right: 10%;
     width: 25%;
@@ -129,6 +128,10 @@ nav a {
 .top-left img {
     border-radius: 100%; /* Adjusting circular Yosemite Image*/
     width: 80%;
+}
+
+#top-width {
+    text-align: center;    
 }
 
 /*Beige Background Section*/
@@ -164,8 +167,8 @@ nav a {
 
 .footer-image {
     width: 100%;
-    height: 20%;
     margin: 0;
+    padding: 0;
 }
 
 
@@ -173,4 +176,14 @@ nav a {
 
 footer {
     background-color: #F9E7DC;
+    margin-top: 0;
+}
+
+footer a {
+        display: inline-block;
+        padding: 1% 0;
+        width: 10%;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
 }
