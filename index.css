@@ -18,11 +18,6 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 :focus {
 	outline: 0;
 	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
-	}
 
 caption, th, td {
 	font-weight: normal;
@@ -38,7 +33,7 @@ blockquote, q {
 /* End of CSS Reset */
 
 
-/* Box Sizing */
+/* Universal styles */
 
 * {
     box-sizing: border-box;
@@ -47,6 +42,8 @@ blockquote, q {
     margin: 0;
     max-width: 100%;
 }
+
+/* General Styles */
 
 html {
     font-size: 62.5%; /* Setting html font size for REM*/
@@ -60,11 +57,6 @@ body {
 
 }
 
-h1 {
-    font-family: Chelsea Market, cursive;
-    font-size: 5rem;
-}
-
 section {
     padding: 4% 0;
 }
@@ -73,12 +65,19 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-family: Chelsea Market, cursive;
+    font-size: 5rem;
+}
+
+
+
 /* Header Section Styles */
 
 nav {
     padding: 2% 0;
 }
- nav a {
+nav a {
      display: inline-block;
      padding: 1% 0;
      width: 10%;
@@ -89,50 +88,88 @@ nav {
 
 .plan {
     background-color: #FF764E;
+    margin-left: 10%;
     width: 25%;
 }
 
 .learn {
     background-color: #5ED3EB;
+    margin: 0 24%;
     width: 25%;
 }
 
 .get-involved {
     background-color: #FFCD69;
+    margin-right: 10%;
     width: 25%;
 }
 
-.beige-background {
-    color: white;
-    background-color: #DDB8A2;
-    
-}
+
 
 /* Top Section Styles */
 
 .top {
-    text-align: center;
+    position: relative;
 }
-
 
 .top-left, .top-right {
+    text-align: center;
     display: inline-block;
-}
-
-/* Adjusting circular Yosemite Image*/
-.top-left img {
-    border-radius: 100%;
 }
 
 .top-left {
     width: 35%;
 }
-
 .top-right {
     width: 60%;
+    position: absolute;
+    top: 45%;
 }
 
-/* Footer Styling*/
+.top-left img {
+    border-radius: 100%; /* Adjusting circular Yosemite Image*/
+    width: 80%;
+}
+
+/*Beige Background Section*/
+
+.beige-background {
+    color: white;
+    background-color: #DDB8A2;
+    padding: 5%;
+    margin: 5%;
+    
+}
+
+/*Icon Section Styling*/
+
+.icon-section {
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 0;
+}
+
+.icon-section img {
+    width: 10%;
+    height: 10%;
+}
+
+.icon-section .text-padding {
+    width: 30%;
+    margin-top: 2%;
+}
+
+
+/*Yosemite Landscape Full Width Section*/
+
+.footer-image {
+    width: 100%;
+    height: 20%;
+    margin: 0;
+}
+
+
+/* Footer Section Styling*/
 
 footer {
     background-color: #F9E7DC;
