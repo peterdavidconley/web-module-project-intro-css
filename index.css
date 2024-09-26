@@ -1,0 +1,208 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+/* End of CSS Reset */
+
+
+/* Universal styles */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+/* General Styles */
+
+html {
+    font-size: 62.5%; /* Setting html font size for REM*/
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #4f4f4f; /* Changed color for accessibility or readability*/
+    font-family: Roboto Mono;
+
+}
+
+section {
+    padding: 4% 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Chelsea Market, cursive;
+    font-size: 5rem;
+}
+
+
+
+/* Header Section Styles */
+
+nav {
+    padding: 2% 0;
+}
+nav a {
+     display: inline-block;
+     padding: 1% 0;
+     width: 10%;
+     border-radius: 10px;
+     text-align: center;
+     color: white;
+ }
+
+ nav a:hover {
+    transform: scale(1.5);
+}
+
+.orange {
+    background-color: #FF764E;
+    margin-left: 10%;
+    
+}
+
+.blue {
+    background-color: #5ED3EB;
+    margin: 0 24%;
+    
+}
+
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+    
+}
+
+
+
+/* Top Section Styles */
+
+.top {
+    position: relative;
+}
+
+.top-left, .top-right {
+    text-align: center;
+    display: inline-block;
+}
+
+.top-left {
+    width: 35%;
+}
+.top-right {
+    width: 60%;
+    position: absolute;
+    top: 45%;
+}
+
+.top-left img {
+    border-radius: 100%; /* Adjusting circular Yosemite Image*/
+    width: 80%;
+}
+
+.top-left:hover {
+    transform: scale(0.5);
+  }
+
+.top-right:hover {
+    border: dotted black 5px;
+  }
+
+#top-width {
+    text-align: center;    
+}
+
+/*Beige Background Section*/
+
+.beige-background {
+    color: white;
+    background-color: #DDB8A2;
+    padding: 5%;
+    margin: 5%;
+    
+}
+
+.beige-background:hover {
+    border: solid #5ED3EB 10px;
+}
+
+/*Icon Section Styling*/
+
+.icon-section {
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 0;
+}
+
+.icon-section img {
+    width: 10%;
+    height: 10%;
+}
+
+.icon-section .text-padding {
+    width: 30%;
+    margin-top: 2%;
+}
+
+
+/*Yosemite Landscape Full Width Section*/
+
+.footer-image {
+    background-image: url("assets/footer_img.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+/* Footer Section Styling*/
+
+footer {
+    background-color: #F9E7DC;
+    margin-top: 0;
+    padding: 2% 0;
+}
+
+footer a {
+        display: inline-block;
+        padding: 1% 0;
+        width: 10%;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+}
